@@ -1,5 +1,8 @@
 
-
+.nav {
+    width: 100%;
+    background-color: #F8F8F8;
+  }
 
 
 .header__container {
@@ -54,4 +57,20 @@
 
 .header__anchor:focus {
     border-bottom: 2px solid #717171;
+}
+
+@media (min-width: 1250px){
+    .header__container {
+        height: 20vh;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .header__ul {
+        flex-direction: row;
+        margin: 0;
+        gap: 2em;
+        align-items: center;
+    }
 }
