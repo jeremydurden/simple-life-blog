@@ -1,0 +1,11 @@
+.recent-post__img {
+    max-width: 8vw;
+}
+
+.recent-post__subtitle {
+    font-family: 'Lora', serif;
+    font-weight: 300;
+    font-size: 1.1em;
+    margin: 1em 0;
+}
+

@@ -1,3 +1,4 @@
+import RecentPostsCard from "../../components/RecentPostsCard/RecentPostsCard";
 import "./About.css";
 import aboutMe from "../../images/about-me.jpg";
 
@@ -5,7 +6,7 @@ const About = () => {
   return (
     <div className="about__container">
       <div className="about__container--feed">
-        <img src={aboutMe} alt="smiling person" />
+        <img className="about__img" src={aboutMe} alt="smiling person" />
         <h1 className="about__feed--title">
           My name is John and living the simple life saved my life
         </h1>
@@ -40,7 +41,9 @@ const About = () => {
           is why I started this site!
         </p>
       </div>
-      <div className="about__container--sidebar"></div>
+      <div className="container--sidebar">
+        <RecentPostsCard />
+      </div>
     </div>
   );
 };

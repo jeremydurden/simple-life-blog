@@ -1,3 +1,46 @@
+.about__container {
+    display: flex;
+    max-width: 70%;
+    margin: 0 auto;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    margin-bottom: 6em;
+}
+
+.about__container--feed {
+    max-width: 50vw;
+    
+    
+}
+
+.about__img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.about__feed--title, .about__feed--subtitle {
+    font-family: 'Lora', serif;
+}
+
+.about__feed--title {
+    color: #143774;
+    font-size: 1.6em;
+    margin: 1em 0;
+    font-weight: 300;
+}
+
+.about__feed--subtitle {
+    color: #1792D2;
+    font-size: 1.5em;
+    margin: 1em 0;
+    font-weight: 300;
+}
 .about__feed--span {
-    font-weight: bold;
+    font-weight: 700;
+}
+.about__feed--text {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.1em;
+    color: #707070;
 }
