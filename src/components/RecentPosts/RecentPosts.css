@@ -12,3 +12,6 @@
     cursor: pointer;
 }
 
+.recent-post__link {
+    text-decoration: none;
+}
