@@ -7,15 +7,15 @@
 
 
 .header__container {
+    padding-top: 2em;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     font-family: 'Ubuntu', sans-serif;
 }
 
-.header__title--container {
-    margin-bottom: 2em;
-}
+
 
 .header__title {
     color: #143774;
@@ -66,7 +66,7 @@
         height: 20vh;
         flex-direction: row;
         justify-content: space-between;
-        align-items: center;
+
     }
 
     .header__ul {
@@ -75,4 +75,11 @@
         gap: 2em;
         align-items: center;
     }
+}
+
+@media (max-width: 1249px) {
+    .header__title--container {
+        margin-bottom: 2em;
+    }
+    
 }
