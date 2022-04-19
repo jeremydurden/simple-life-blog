@@ -1,0 +1,62 @@
+.recent-article__container {
+    display: flex;
+    max-width: 50vw;
+}
+
+.recent-article__text-side {
+    display: flex;
+    flex-direction: column;
+    max-width: 35vw;
+}
+
+.recent-article__img {
+    height: 16vw;
+    max-width: 12vw;
+    object-fit: cover;
+    margin-right: 2em;
+    margin-bottom: .5em;
+}
+
+.image_deco {
+    object-position: 12%;
+}
+.image_life {
+    object-position: 55%;
+}
+
+.recent-article__title {
+    font-family: 'Lora', serif;
+    font-size: 1.5em;
+    letter-spacing: 2px;
+    font-weight: 300;
+    color: #143774;
+    margin-bottom: 1em;
+}
+
+.recent-article__text {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.1em;
+    letter-spacing: 1px;
+    font-weight: 300;
+    color: #707070;
+    margin-bottom: 2em;
+}
+
+.recent-article__continue {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: .9em;
+    letter-spacing: 2.8px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #1792D2;
+    cursor: pointer;
+}
+
+.recent-article__date {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: .8em;
+    font-weight: 300;
+    color: #707070;
+    margin-bottom: 2em;
+
+}

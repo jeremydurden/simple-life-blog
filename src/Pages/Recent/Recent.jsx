@@ -15,6 +15,7 @@ const Recent = () => {
         title={article.title}
         text={article.text}
         comments={article.comments}
+        identifier={article.class}
       />
     );
   });
