@@ -1,0 +1,28 @@
+.footer {
+    width: 100%;
+    background-color: #143774;
+    height: 20vh;
+    color: #FFFFFF;
+}
+
+.footer__container {
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.footer__container h1, .footer__container p {
+    font-family: 'Lora', serif;
+    opacity: 55%;
+    font-size: 1.1em;
+    
+}
+.footer__container p {
+    font-family: 'Ubuntu', sans-serif;
+    margin-top: 1em;
+    
+
+}

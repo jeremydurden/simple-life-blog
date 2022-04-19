@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./Header.css";
 
 const Header = () => {
@@ -12,19 +13,19 @@ const Header = () => {
         </div>
         <ul className="header__ul">
           <li className="header__list-item">
-            <a href="#home" className="header__anchor">
+            <Link className="header__link" to="/home">
               Home
-            </a>
+            </Link>
           </li>
           <li className="header__list-item">
-            <a href="#about" className="header__anchor">
+            <Link className="header__link" to="/about">
               About Me
-            </a>
+            </Link>
           </li>
           <li className="header__list-item">
-            <a href="#recent" className="header__anchor">
+            <Link className="header__link" to="/recent">
               Recent Posts
-            </a>
+            </Link>
           </li>
         </ul>
       </div>
