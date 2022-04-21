@@ -54,3 +54,14 @@
     color: #1792D2;
     cursor: pointer;
 }
+
+.featured-article__container::after {
+    content: '';
+    border-bottom: 1px solid #707070;
+    opacity: 50%;
+    width: 50vw;
+    position: absolute;
+    margin: 2em 0 0 0;
+    
+    
+}

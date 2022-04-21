@@ -10,7 +10,9 @@ const RecentPostsCard = () => {
     <div className="recent-posts__container">
       <h1 className="recent-posts__title">Recent Posts</h1>
       <RecentPosts photo={food} text="Keep cooking simple" />
+
       <RecentPosts photo={work} text="Simplicity and Work" />
+
       <RecentPosts photo={deco} text="Simple decorations" />
     </div>
   );
