@@ -1,5 +1,6 @@
 .about__container {
     display: flex;
+    min-height: 60vh;
     max-width: 70%;
     margin: 0 auto;
     justify-content: space-between;
