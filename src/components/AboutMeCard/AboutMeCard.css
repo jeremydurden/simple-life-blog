@@ -5,6 +5,7 @@
     border: 1.5em solid #EBEBEB;
     max-width: 15vw;
     margin-bottom: 3em;
+    
 }
 
 .about-me__title {
@@ -23,7 +24,7 @@
     font-weight: 300;
     font-size: .9em;
     color: #143774;
-    margin: 1em 0 .75em 0;
+    margin: 2em 0 .75em 0;
     max-width: 8.5vw;
     cursor: pointer;
     
@@ -31,4 +32,9 @@
 
 .about-me__link {
     text-decoration: none;
+}
+
+.about-me__img {
+    height: 12vh;
+    object-fit: cover;
 }

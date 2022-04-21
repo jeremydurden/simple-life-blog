@@ -7,7 +7,7 @@ const AboutMeCard = () => {
       <Link className="about-me__link" to="/about">
         <div className="about-me__container">
           <h1 className="about-me__title">About Me</h1>
-          <img src={photo} alt="smiling young man" />
+          <img className="about-me__img" src={photo} alt="smiling young man" />
           <p className="about-me__text">
             I find life better, and I'm happier, when things are nice and
             simple.

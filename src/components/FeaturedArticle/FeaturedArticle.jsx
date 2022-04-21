@@ -15,9 +15,9 @@ const FeaturedArticle = () => {
         </span>
         , but it doesn't have to be! There are many ways to simplify your life,{" "}
         <span className="featured-article__span--link">
-          a few of which we've explored in the past.
+          a few of which we've explored in the past
         </span>
-        This week we're taking a bit of a approach though, in how you can find
+        . This week we're taking a bit of a approach though, in how you can find
         simplicity in the life you already living.
       </p>
       <p className="featured-article__continue">continue reading</p>
