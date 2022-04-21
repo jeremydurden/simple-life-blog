@@ -1,5 +1,4 @@
 import AboutMeCard from "../../components/AboutMeCard/AboutMeCard";
-import RecentArticle from "../../components/RecentArticle/RecentArticle";
 import RecentArticleFeed from "../../components/RecentArticleFeed/RecentArticleFeed";
 import RecentPostsCard from "../../components/RecentPostsCard/RecentPostsCard";
 
