@@ -3,4 +3,5 @@
     max-width: 70vw;
     margin: 0 auto;
     justify-content: space-between;
+    min-height: 80vh;
 }

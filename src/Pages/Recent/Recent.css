@@ -1,5 +1,6 @@
 .recent-page__container {
     max-width: 70%;
+    min-height: 80vh;
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
