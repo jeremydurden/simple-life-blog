@@ -39,5 +39,8 @@
   .recent-posts__title {
     margin-bottom: 2em;
   }
+  .recent-posts__container--hide {
+    display: none;
+  }
   
 }
