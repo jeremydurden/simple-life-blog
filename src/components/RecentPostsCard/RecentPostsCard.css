@@ -19,7 +19,7 @@
   margin-bottom: 1em;
 }
 
-
+/* 
 .recent-posts__pseudo {
   content: '';
   border-bottom: 1px solid #707070;
@@ -27,4 +27,16 @@
   width: 8.5vw;
   position: absolute;
   margin: 1em 0 0 0;
+} */
+
+
+@media (max-width: 1249px){
+  .recent-posts__container{
+      max-width: 90vw;
+      width: 90vw;
+  }
+  .recent-posts__title {
+    margin-bottom: 2em;
+  }
+  
 }
