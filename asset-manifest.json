@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/simple-life-blog/static/css/main.7b22e971.css",
-    "main.js": "/simple-life-blog/static/js/main.14278867.js",
+    "main.js": "/simple-life-blog/static/js/main.e0e5e8c6.js",
     "static/media/food.jpg": "/simple-life-blog/static/media/food.0dce750972c5a4f57ccd.jpg",
     "static/media/life.jpg": "/simple-life-blog/static/media/life.50595b632589aea0b5eb.jpg",
     "static/media/about-me.jpg": "/simple-life-blog/static/media/about-me.9141b009980ea6032498.jpg",
@@ -9,10 +9,10 @@
     "static/media/deco.jpg": "/simple-life-blog/static/media/deco.0f5a100426bcc5606b2e.jpg",
     "index.html": "/simple-life-blog/index.html",
     "main.7b22e971.css.map": "/simple-life-blog/static/css/main.7b22e971.css.map",
-    "main.14278867.js.map": "/simple-life-blog/static/js/main.14278867.js.map"
+    "main.e0e5e8c6.js.map": "/simple-life-blog/static/js/main.e0e5e8c6.js.map"
   },
   "entrypoints": [
     "static/css/main.7b22e971.css",
-    "static/js/main.14278867.js"
+    "static/js/main.e0e5e8c6.js"
   ]
 }
