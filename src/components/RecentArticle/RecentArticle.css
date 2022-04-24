@@ -60,3 +60,24 @@
     margin-bottom: 2em;
 
 }
+
+@media (max-width: 1249px){
+    .recent-article__container {
+        flex-direction: column;
+        max-width: 100%;
+        width: 100%;
+        
+    }
+    .recent-article__img {
+        max-width: 90vw;
+        height: 25vh;
+        width: 100%;
+    }
+
+    .recent-article__text-side {
+        max-width: 90vw;
+    }
+    .recent-article__continue {
+        margin-bottom: 4em;
+    }
+}

@@ -5,7 +5,7 @@ const FeaturedArticle = () => {
     <div className="featured-article__container">
       <img className="featured-article__img" src={data[0].photo} alt="" />
       <p className="featured-article__date">
-        {data[0].date} | {data[0].comments}
+        {data[0].date} | {data[0].comments} comments
       </p>
       <h2 className="featured-article__title">{data[0].title}</h2>
       <p className="featured-article__text">

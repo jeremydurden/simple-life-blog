@@ -67,3 +67,15 @@
     
 }
 
+@media (max-width: 1249px){
+    .featured-article__container {
+        max-width: 90vw;
+    }
+    .featured-article__img {
+        max-width: 100vw;
+        height: 25vh;
+    }
+    .featured-article__container::after {
+        width: 90%;
+    }
+}
