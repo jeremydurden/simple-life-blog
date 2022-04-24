@@ -13,7 +13,7 @@ const Header = () => {
         </div>
         <ul className="header__ul">
           <li className="header__list-item">
-            <Link className="header__link" to="/home">
+            <Link className="header__link" to="/">
               Home
             </Link>
           </li>
