@@ -66,7 +66,6 @@
         height: 20vh;
         flex-direction: row;
         justify-content: space-between;
-
     }
 
     .header__ul {
@@ -80,6 +79,7 @@
 @media (max-width: 1249px) {
     .header__title--container {
         margin-bottom: 2em;
+        text-align: center;
     }
     
 }
